@@ -12,8 +12,10 @@ src/                     # Source folder containing all projects
 ├── TodoApp/             # Main Blazor Server project
 │   ├── Pages/           # Razor pages (Todo, About, Stats)
 │   ├── Components/      # Reusable UI components (TodoItem, etc.)
+│   ├── Shared/          # Shared Razor components (MainLayout, NavMenu, etc.)
 │   ├── Data/            # EF Core DbContext and entity models
 │   ├── Services/        # Business logic services (TodoService)
+│   ├── Properties/      # Project properties (launchSettings.json, etc.)
 │   ├── Program.cs       # App startup and DI configuration
 │   └── wwwroot/         # Static assets
 │
